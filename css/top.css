@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.contents img{
+/*	box-shadow: 0 0 10px #b98c46;*/
+}
+
+main h2{
+	margin-bottom: 5px;
+	margin-right: 20px;
+	background: url(../images/main.png) no-repeat left center;
+	padding: 0 2em;
+	border-bottom: solid 1px #000;
+}
+
+
+main section{
+	margin: 15px 0px;
+	margin-right: 20px;
+	text-align: justify; 
+}
+
+dl{
+	margin:10px 20px 10px 0;
+	position: relative;
+}
+dl dt{
+	font-weight: bold;
+	position: absolute;
+	left:1em;
+
+}
+
+dl dd{
+	padding-left: 8em;
+	border-bottom: dotted 1px #ffa500;
+}
+.new{
+	color: #d9333f;
+}
+
+
+.slide{
+	width:605px;
+	position:relative;
+	margin-left: 10px;
+	overflow: hidden;
+	height:350px;
+}
+
+.mainVisual{
+	position:absolute;
+	width:1815px;
+	}
+.mainVisual li{
+	float:left;
+	width:605px;
+}
+
+
+
+

@@ -1,0 +1,111 @@
+@charset "utf-8";
+html{
+	overflow-y: scroll;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#wrapper{
+	line-height: 1.5;
+	width: 900px;
+	margin: 0 auto;
+	background-color: #ffffe0;
+}
+header{
+	background: #5b433b;
+	padding-top: 30px;
+	min-height: 65px;	
+}
+h1{
+	padding: 6px 614px 5px 20px;
+	background: #fff;
+	float: left;
+}
+
+header ul{
+	float: right;
+	position: relative;
+	bottom: 2.5em;
+	right:20px;
+}
+
+header ul li{
+	display: inline;
+	padding-left: 5px;
+}
+
+nav{
+	width: 225px;
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	/*margin-top: 25px;*/
+}
+
+nav ul li{
+	margin-bottom: 10px;
+	background: #3cb3aa;
+	border-radius: 0 27px 27px 0;
+}
+
+nav a{
+	display: block;
+	min-height:60px;
+	background: url(../images/hane.png) no-repeat left center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 112.5%;/*18px*/
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 1em;
+	padding: 0 2.5em;
+}
+
+
+nav a:hover {
+	background-image: url(../images/hane_on.png);
+	color: #c1e5e1;
+	text-shadow: 3px 4px 2px #000;
+}
+
+.contents{
+	width: 655px;
+	float: right;
+}
+
+
+main{
+	margin: 15px 20px 15px 0;
+}
+
+footer{
+	clear: both;
+	background: #5b433b;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+}
+
+footer ul{
+	justify-content: center;
+	font-size: 87.5%;/*14px相当*/
+}
+footer ul li {
+	display: inline-block;
+}
+footer ul li + li::before{
+	content: " | ";
+}
+footer a:hover{
+	color: #d6c6af;
+	text-decoration: underline;
+}
+
+footer p{
+	font-size: 81%;/*13px相当*/
+
+}
+
